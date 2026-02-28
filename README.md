@@ -4,37 +4,58 @@
 
 ---
 
-## 📦 Project Structure
+## 🚀 Quick Start (One-liner)
+
+The fastest way to install E++ and its native `epp` command is using [uv](https://astral.sh/uv):
+
+```bash
+uv tool install git+https://github.com/devRIKU/Epp.git
+```
+
+This will automatically handle the environment and install the `epp` command to your system path.
+
+---
+
+## 📦 Manual Installation
+
+If you prefer to install it manually using `pip`:
+
+```bash
+# Clone the repository
+git clone https://github.com/devRIKU/Epp.git
+cd Epp
+
+# Install the package (editable mode recommended for development)
+python -m pip install -e .
+```
+
+---
+
+## 🎮 Usage
+
+Once installed, you can launch the interactive REPL by just typing:
+
+```bash
+epp
+```
+
+Or execute a specific E++ file directly:
+
+```bash
+epp hello_world.epp
+```
+
+---
+
+## 📂 Project Structure
 
 - `epp_interpreter.py` – Core interpreter that parses and executes E++ source files.
 - `epp_ui.py` – Simple UI utilities for running E++ programs in a browser‑like window.
 - `epp.py` – Entry‑point script that launches the REPL.
-- `setup.py` – Package metadata for installing the language as a Python package.
+- `setup.py` – Package metadata for installing the language and defining the `epp` command.
 - `*.epp` files – Example programs (e.g., `hello_world.epp`, `fizzbuzz.epp`, `pseudo_demo.epp`).
 - `LANGUAGE_GUIDE.md` – Language specification and grammar.
 - `REFERENCE_GUIDE.md` – Reference documentation for built‑in functions and keywords.
-
----
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/epp.git
-cd epp
-
-# Install the package (editable mode)
-python -m pip install -e .
-
-# Run the REPL
-python epp.py
-```
-
-You can also execute a specific E++ file directly:
-
-```bash
-python epp.py path/to/your_program.epp
-```
 
 ---
 

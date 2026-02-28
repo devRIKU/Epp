@@ -6,7 +6,7 @@ setup(
     py_modules=['epp_interpreter', 'epp_ui'],
     entry_points={
         'console_scripts': [
-            'Epp=epp_interpreter:main',
+            'epp=epp_interpreter:main',
         ],
     },
 )
