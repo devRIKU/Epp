@@ -71,6 +71,14 @@ epp hello_world.epp
 
 ## 📚 Documentation
 
+Detailed documentation is available in our **[Official Wiki](https://github.com/devRIKU/Epp/wiki)**:
+- **[Home](https://github.com/devRIKU/Epp/wiki/Home)** – Overview and Quick Start.
+- **[Language Guide](https://github.com/devRIKU/Epp/wiki/Language-Guide)** – Philosophy and Core Syntax.
+- **[Full Reference](https://github.com/devRIKU/Epp/wiki/Full-Reference)** – Complete Keyword List.
+- **[Pseudo-Code Support](https://github.com/devRIKU/Epp/wiki/Pseudo-Code)** – For algorithmic writing.
+- **[Examples](https://github.com/devRIKU/Epp/wiki/Examples)** – Ready-to-run E++ scripts.
+
+You can also find raw guides in the repository:
 - `LANGUAGE_GUIDE.md` – Full language specification.
 - `REFERENCE_GUIDE.md` – Detailed reference for all built‑in commands.
 - Inline comments in the source files provide additional context.
