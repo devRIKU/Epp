@@ -1,0 +1,5 @@
+note: E++ UI Demo 2 - Load a local HTML file into a webview window.
+
+create window titled "Welcome Page".
+load file "welcome.html" into window "Welcome Page".
+show windows.

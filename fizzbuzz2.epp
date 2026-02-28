@@ -1,0 +1,15 @@
+start program.
+    set n to 1.
+    while n <= 100.
+        if n % 15 == 0 then.
+            say "FizzBuzz".
+        otherwise if n % 3 == 0 then.
+            say "Fizz".
+        otherwise if n % 5 == 0 then.
+            say "Buzz".
+        otherwise.
+            say n.
+        end if.
+        set n to n + 1.
+    end while.
+end program.

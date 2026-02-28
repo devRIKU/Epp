@@ -1,0 +1,12 @@
+note: E++ HTML Reader Demo - Fetch a web page, extract its text, display it.
+
+start program.
+    say "Fetching https://example.com ...".
+    fetch page "https://example.com" into raw html.
+    say "Raw HTML length:", size of raw html.
+
+    read text from html raw html into clean text.
+    say "".
+    say "--- Extracted Text ---".
+    say clean text.
+end program.

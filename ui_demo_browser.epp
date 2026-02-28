@@ -1,0 +1,5 @@
+note: E++ UI Demo 3 - Open a real URL in a webview window (mini browser).
+
+create window titled "E++ Browser".
+open url "https://example.com" in window "E++ Browser".
+show windows.

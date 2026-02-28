@@ -1,0 +1,28 @@
+start program.
+    set my doc to text block
+        This is a multi-line string.
+        It spans across lines easily!
+        We can use it to write files!
+    end text.
+    
+    say "--- Writing Document ---"
+    say my doc.
+    
+    write my doc to file "output.txt".
+    
+    say "--- Reading Document ---"
+    read file "output.txt" into loaded doc.
+    say loaded doc.
+    
+    say "--- Type Checking ---"
+    set num check to check if 100 is a number.
+    set str check to check if "hello" is a string.
+    
+    if num check then.
+        say "The type check successfully identified 100 as a number.".
+    end if.
+    
+    if str check then.
+        say "The type check successfully identified 'hello' as a string.".
+    end if.
+end program.

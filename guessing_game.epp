@@ -1,0 +1,18 @@
+start program.
+    set secret to 42.
+    set guess to 0.
+    
+    say "I am thinking of a number between 1 and 100.".
+    
+    while guess != secret.
+        ask "What is your guess?" and store in guess.
+        
+        if guess < secret then.
+            say "Too low! Try again.".
+        otherwise if guess > secret then.
+            say "Too high! Try again.".
+        otherwise.
+            say "You got it! The number was", secret.
+        end if.
+    end while.
+end program.

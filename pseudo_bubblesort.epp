@@ -1,0 +1,28 @@
+// Bubble Sort in Pseudo Code
+// Classic algorithm implementation using E++ pseudo code mode
+
+FUNCTION bubbleSort(arr)
+    DECLARE n = size of arr.
+    FOR i = 0 TO n - 2
+        FOR j = 0 TO n - i - 2
+            IF arr[j] > arr[j + 1] THEN
+                // Swap elements
+                DECLARE temp = arr[j].
+                set arr[j] to arr[j + 1].
+                set arr[j + 1] to temp.
+            ENDIF
+        NEXT
+    NEXT
+    RETURN arr.
+END FUNCTION
+
+// Main program using mixed E++ and pseudo code
+start program.
+    DECLARE numbers = [64, 34, 25, 12, 22, 11, 90].
+    say "Unsorted list:".
+    PRINT numbers.
+
+    DECLARE sorted = CALL bubbleSort(numbers).
+    say "Sorted list:".
+    PRINT sorted.
+end program.

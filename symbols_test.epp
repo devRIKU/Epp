@@ -1,0 +1,16 @@
+note We can now use math and logic symbols.
+let max_value = 100.
+let iterator = 0.
+
+while iterator <= 5.
+    if iterator < 3 || iterator == 5.
+        say "Iterator is small or exactly 5. Iterator = " + iterator.
+    end if.
+    
+    set iterator = iterator + 1.
+end while.
+
+let is_valid = true.
+if is_valid && iterator > 2.
+    say "Everything is valid! Iterator reached " + iterator.
+end if.

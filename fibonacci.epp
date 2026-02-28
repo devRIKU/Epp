@@ -1,0 +1,14 @@
+define fibonacci with n.
+    if n <= 1 then.
+        give back n.
+    end if.
+    
+    set prev1 to call fibonacci with n - 1.
+    set prev2 to call fibonacci with n - 2.
+    
+    give back prev1 + prev2.
+end define.
+
+start program.
+    say "Fibonacci of 10 is", call fibonacci with 10.
+end program.

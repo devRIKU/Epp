@@ -1,0 +1,20 @@
+// FizzBuzz in Pseudo Code style
+// This demonstrates E++ pseudo code support
+
+FUNCTION fizzbuzz(n)
+    FOR i = 1 TO n
+        IF i % 15 == 0 THEN
+            PRINT "FizzBuzz"
+        ELSEIF i % 3 == 0 THEN
+            PRINT "Fizz"
+        ELSEIF i % 5 == 0 THEN
+            PRINT "Buzz"
+        ELSE
+            PRINT i
+        ENDIF
+    NEXT
+END FUNCTION
+
+// Main program
+DECLARE limit = 20
+CALL fizzbuzz(limit)

@@ -1,0 +1,14 @@
+let number be 1.
+
+while number is at most 15.
+    if number modulo 15 equals 0.
+        say "FizzBuzz.".
+    else if number modulo 3 equals 0.
+        say "Fizz.".
+    else if number modulo 5 equals 0.
+        say "Buzz.".
+    else.
+        say number.
+    end if.
+    set number to number plus 1.
+end while.

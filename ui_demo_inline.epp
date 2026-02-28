@@ -1,0 +1,5 @@
+note: E++ UI Demo 1 - Create a webview window and set its HTML content.
+
+create window titled "My E++ App".
+set window content of "My E++ App" to "<html><body style='font-family:sans-serif;background:#1a1a2e;color:white;padding:40px;'><h1 style='color:#e94560;'>Hello from E++!</h1><p>This window was created and rendered entirely from E++ code.</p><p>No HTML file needed. The content was set inline!</p></body></html>".
+show windows.

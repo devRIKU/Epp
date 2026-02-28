@@ -1,0 +1,60 @@
+// Comprehensive Pseudo Code Demo
+// Demonstrates all supported pseudo code constructs
+
+// === Variable Declaration ===
+DECLARE x = 10
+DECLARE name = "Alice"
+DECLARE count AS INTEGER
+DECLARE greeting AS STRING
+
+// === Assignment styles ===
+ASSIGN 42 TO count
+greeting <- "Hello, World!"
+
+// === Output ===
+PRINT greeting
+OUTPUT "The count is: ", count
+DISPLAY "x = ", x
+
+// === Function with return ===
+FUNCTION factorial(n)
+    IF n <= 1 THEN
+        RETURN 1
+    ENDIF
+    RETURN n * factorial(n - 1)
+END FUNCTION
+
+// === Call and print result ===
+DECLARE result = factorial(5)
+PRINT "Factorial of 5 is: ", result
+
+// === For loop with step ===
+PRINT "--- Counting by 2 ---"
+FOR i = 1 TO 10 STEP 2
+    PRINT i
+NEXT
+
+// === While loop ===
+PRINT "--- Countdown ---"
+DECLARE counter = 5
+WHILE counter > 0 DO
+    PRINT counter
+    DECREMENT counter
+ENDWHILE
+PRINT "Liftoff!"
+
+// === Swap ===
+DECLARE a = 100
+DECLARE b = 200
+PRINT "Before swap: a=", a, " b=", b
+SWAP a AND b
+PRINT "After swap: a=", a, " b=", b
+
+// === Increment/Decrement ===
+DECLARE score = 0
+INCREMENT score BY 10
+PRINT "Score after +10: ", score
+DECREMENT score BY 3
+PRINT "Score after -3: ", score
+INCREMENT score
+PRINT "Score after +1: ", score
