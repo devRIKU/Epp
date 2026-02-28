@@ -1,0 +1,14 @@
+let m be 10.
+define factorial, accepting n.
+    if n is at most 1.
+        return 1.
+    end if.
+    
+    let smaller be n minus 1.
+    let sub result be call factorial with smaller.
+    
+    return n times sub result.
+end define.
+
+let answer be call factorial with 5.
+say "Factorial of 5 is " plus answer.
